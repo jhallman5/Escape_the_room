@@ -18,7 +18,7 @@ UGrabber2::UGrabber2()
 void UGrabber2::BeginPlay()
 {
 	Super::BeginPlay();
-
+    UE_LOG(LogTemp, Warning, TEXT("Grabber reporting for Duty!"));
 	// ...
 	
 }
